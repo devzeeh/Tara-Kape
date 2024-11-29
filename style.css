@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 120px;
+  background-color: rgb(228, 228, 228);
+}
+  
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(24, 24, 24, 0.2);
+  z-index: 1000;
+}
+  
+.logo img {
+  height: 4rem;
+}
+  
+.navbar-button a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 25px;
+  padding: 30px;
+}
+  
+.navbar-button a:hover {
+  color: #ddd;
+}
+
+/*premium coffee*/
+.premium-coffee {
+  text-align: center;
+}
